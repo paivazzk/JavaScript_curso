@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')({ sigint: true })
 
     let Prova1 = Number(prompt(`Digite a nota da sua prova 1: `))
     let Prova2 = Number(prompt(`Digite a nota da sua prova 2: `))
-    let Reda = prompt(`Digite a nota da sua redação: `)
+    let Reda = Number(prompt(`Digite a nota da sua redação: `))
 
 
 let Nota = Prova1 + Prova2 + Reda
