@@ -8,3 +8,4 @@ let removido = playlist.pop()
 playlist.forEach((playlist, index) => {
     console.log(`${index + 1}. ${playlist} `)
 })
+
